@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Computer Lab Reservation</title>
+</head>
+<body>
+  <h1>Computer Lab Reservation</h1>
+
+  <p id="message"></p>
+
+  <h2>New Reservation</h2>
+  <form id="addForm">
+    <input id="student_name" placeholder="Student name" required>
+    <select id="lab">
+      <option>Computer Lab 1</option>
+      <option>Computer Lab 2</option>
+      <option>Computer Lab 3</option>
+    </select>
+    <input id="date" type="date" required>
+    <input id="number_of_seats" type="number" min="1" max="30" placeholder="Seats (1-30)" required>
+    <input id="purpose" placeholder="Purpose" required>
+    <button>Reserve</button>
+  </form>
+
+  <h2>Search or Delete by ID</h2>
+  <input id="searchId" type="number" placeholder="Reservation ID">
+  <button onclick="searchById()">Search</button>
+  <button onclick="deleteReservation(document.getElementById('searchId').value)">Delete</button>
+  <p id="searchResult"></p>
+
+  <h2>All Reservations</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Student</th>
+        <th>Lab</th>
+        <th>Date</th>
+        <th>Seats</th>
+        <th>Purpose</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody id="tableBody"></tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
