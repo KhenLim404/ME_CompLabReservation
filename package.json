@@ -1,0 +1,12 @@
+{
+  "name": "computer-lab-reservation",
+  "version": "1.0.0",
+  "description": "Computer Lab Reservation System (Node.js + Express REST API)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.22.3"
+  }
+}

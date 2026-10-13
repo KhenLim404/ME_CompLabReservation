@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "student_name": "Zach Bacolod",
+    "lab": "Computer Lab 1",
+    "date": "2026-10-15",
+    "number_of_seats": 2,
+    "purpose": "capstone project"
+  },
+  {
+    "id": 2,
+    "student_name": "Cris Arquiza",
+    "lab": "Computer Lab 3",
+    "date": "2026-10-19",
+    "number_of_seats": 3,
+    "purpose": "research"
+  },
+  {
+    "id": 3,
+    "student_name": "Khen Lim",
+    "lab": "Computer Lab 1",
+    "date": "2026-10-03",
+    "number_of_seats": 1,
+    "purpose": "study"
+  }
+]
